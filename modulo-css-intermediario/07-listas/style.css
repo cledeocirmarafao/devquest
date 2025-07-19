@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style-image: url(./imagens/have.jpg);
+
+    list-style: square inside url(./imagens/have.jpg);
+
+    /* versão não encurtada */
+    /* list-style-position: inside; */
+
+}
+
+ul li{
+    border: 1px solid chartreuse;
+    padding: 20px;
+    background-color: orangered;
+}
+
+ul ol{
+  background-color: aqua;
+  border: 10px solid rebeccapurple;
+  padding: 20px;
+    /* list-style-image: url(./imagens/have.jpg);
+
+    list-style: square inside url(./imagens/have.jpg); */
+}
+
+
+/* a imagem é um jpg, não carrega, pra colocar imagens tem de ser png */

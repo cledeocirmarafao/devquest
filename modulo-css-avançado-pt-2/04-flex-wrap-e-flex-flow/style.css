@@ -1,0 +1,27 @@
+/* NOWRAP É O PADRÃO DO FLEX-WRAP */
+
+.nowrap{
+    display: flex;
+      /* flex-wrap: nowrap; */
+}
+/* mantem a largura dos itens e quando não tem espaço quebra pra baixo*/
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* quebra pra linha de cima por conta do flex direction ser padrão row, então o eixo que era transversal agora fica na vertical, azendo os itens quebrar de baixo pra cima*/
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* COM O FLEX FLOW PODEMOS UTILIZAR AS PROPRIEDADES FLEX-DIRECTION E FLEX-WRAP JUNTAS, EM CONJUNTO 
+
+O Primeiro parâmetro é o flex-direction;*/
+
+.flex-flow{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    flex-flow: column wrap;
+}

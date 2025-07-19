@@ -1,0 +1,56 @@
+h1{
+    color: #f39711;
+}
+
+p{
+
+}
+
+div{
+
+}
+
+.classe{
+    color: chartreuse;
+}
+
+#id{
+    color: #aa1158;
+}
+
+*{
+    padding: 0;
+    font-size: 24px;
+}
+/* Se houvesse um espaço entre '.titulo.laranjado' a estilização não pegaria, porque estaria em hierarquia, o .titulo seria o pai e o .laranja seria o filho, teria que ter um elemento com a classe .laranja dentro de um alemento com a classe .titulo pra que funcionasse */
+.titulo.laranjado{
+    color: orangered;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: yellow ;
+}
+/* poderia ser uma classe ou id, no exemplo abaixo */
+div > p{
+   color: blue;
+}
+/* div + p quer dizer que quero estilizar todos os 'p' que vierem imediatamente após uma div */
+div + p{
+    color: teal;
+}
+
+a[target=_blank]{
+   color: chartreuse; 
+}
+
+a[href="google.com"]{
+   color: red; 
+}

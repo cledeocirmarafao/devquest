@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico{
+    background-color: blueviolet;
+    position: static;
+}
+
+.elemento-relativo{
+    background-color: brown;
+    position: relative;
+    left: 100px;
+}
+/* Elemento absoluto quando usado puxa o restante do conteudo "pra dentro" dele */
+.elemento-absoluto{
+    background-color: darkcyan;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.elemento-relativo-com-filho{
+    background-color: yellowgreen;
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+/* Geralmente pra utilizar o position absolute vamos ter que colocar uma div dentro de outra div, pro elemento não ficar solto na tela, exemplificado acima.*/
+.elemento-absoluto-com-pai{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+}

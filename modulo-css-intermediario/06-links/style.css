@@ -1,0 +1,19 @@
+a{
+    cursor: progress;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+a:visited{
+    color: orangered;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:hover{
+    background-color: green;
+    color:yellow
+}

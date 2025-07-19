@@ -1,0 +1,63 @@
+/* O ALIGN CONTENT É MUITO PARECIDO COM O ALIGN-ITENS. Isso porque pode ser considerado uma combinação de align-itens e justify-content */
+/* ALIGN-ITENS É UMA MISTURA DE ALIGN-ITENS E JUSTIFY-CONTENT */
+/* O ALIGN CONTENT ALINHA OS ITENS NO INICIO DO CONTEINER DE ACORDO COM AS REGRAS DEFINIDAS NO FLEX-DIRECTION, COMO SEMPRE. */
+
+.flex-start {
+display: flex;
+align-content: flex-start;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+
+.flex-end {
+display: flex;
+align-content: flex-end;
+flex-wrap: wrap;
+flex-direction: column;
+}
+/* se eu quiser que os itens 5 e 6 fiquem centralizados também, posso usar em conjunto o justify-content com o valor center; assim posso alinhar todos os itens no centro do eixo principal que por padrão é horizontal, exemplo abaixo*/
+.center {
+display: flex;
+align-content:center;
+flex-wrap: wrap;
+/* se descomentar a propriedade abaixo verá um efeito */
+/* flex-direction: column; */
+justify-content: center;
+}
+
+.space-between {
+display: flex;
+align-content: space-between;
+flex-wrap: wrap;
+flex-direction: column;
+/* justify-content: center; */
+}
+/* se flex-direction:column o eixo transversal passa a ser horizontal */
+.space-around {
+display: flex;
+align-content: space-around;
+flex-wrap: wrap;
+/* flex-direction: column; */
+/* justify-content: center; */
+}
+
+.space-evenly {
+display: flex;
+align-content: space-evenly;
+flex-wrap: wrap;
+/* flex-direction: column; */
+/* justify-content: center; */
+}
+/* pra ver o stretch funcionar tem que remover ou comentar altura da div no globals.css e adicionar flex:1; */
+/* como o flex-direction por padrão é row, o stretch vai esticar os itens na vertical por causa do eixo transversal, aumentando a altura deles */
+/* pro stretch funcionar precisamos remover a altura fixa porque estariamos trabalhando primeiramente no eixo vertical então quem vai ser afetado no momento é a altura dos itens */
+/* se mudar para flex-direction column é preciso removar a largura setada no globals.css e adicionar se quiser o height(altura) */
+.stretch {
+display: flex;
+align-content: stretch;
+flex-wrap: wrap;
+/* flex-direction: column; */
+/* justify-content: center; */
+}
+

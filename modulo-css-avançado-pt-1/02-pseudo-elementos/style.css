@@ -1,0 +1,42 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+/* Pode ser estilizador qualquer seletor, classes, ids, paragráfos etc */
+
+.primeira-letra::first-letter{
+    color: #c3f709;
+}
+/* A quantidade de texto na primeira linha varia de acordo com cada tela */
+.primeira-linha::first-line{
+    color: #33f709;
+}
+
+.primeira-linha::first-letter{
+    color: #a1b2c3;
+}
+
+li::marker{
+    color: #33f709;
+    font-size: 24px;
+}
+/* no lugar da foto também pode ser texto */
+
+/* h2::before{
+    content: url("favicon-32x32.png");
+} */
+
+.antes::before{
+    content: url("");
+    background: url(favicon-32x32.png) center center no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.depois::after{
+    content: url("favicon-32x32.png");
+}
+
+/* ACIMA ESTÁ DUAS FORMAS DE FAZER A MESMA COISA */
+

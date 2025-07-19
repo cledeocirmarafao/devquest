@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução a Responsividade</title>
+
+    <link rel="stylesheet" href="reset.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="logo">Logo</h1>
+      <nav>
+        <ul>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#onde-estamos">Onde Estamos</a></li>
+          <li><a href="Contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="painel">
+        <div class="info">
+          <h1>Filme do Batman</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            porro deleniti aspernatur, quam tempore cumque deserunt commodi
+            doloribus nulla illum beatae minima totam ullam excepturi, alias
+            tenetur, quia saepe error!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            assumenda sunt asperiores eaque veritatis repellat corporis sint
+            consectetur maiores? Consequuntur facilis nesciunt quo aut nostrum
+            ratione dolore sunt totam odit?
+          </p>
+        </div>
+
+        <div class="image">
+          <picture>
+            <source srcset="./imagens/batman-pequena.jpg" media="(max-width: 600px)"/>
+
+            <img src="./imagens/batman.jpg" alt="filme do batman" />
+
+          </picture>
+        </div>
+
+        <!-- <div class="image">
+                <img src="./imagens/batman.jpg" alt="filme do batman">
+            </div> -->
+      </section>
+    </main>
+  </body>
+</html>

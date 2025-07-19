@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Responsivas Utilizando a Tag PICTURE</title>
+</head>
+<body>
+    
+    <!-- <h1>Picture com Mobile First</h1>
+
+    <picture>
+        <source media="(min-width: 1024px)" srcset="https://placecats.com/1200/1200"/>
+
+        <source media="(min-width: 768px)" srcset="https://placecats.com/850/850"/>
+
+        <source media="(min-width: 465px)" srcset="https://placecats.com/500/500"/>
+
+        <img src="https://placecats.com/300/300" alt="imagem placecats"/>
+    </picture>  -->
+    
+    <h1>Picture Desktop First</h1>
+
+    <picture>
+        <source media="(max-width: 375px)" srcset="https://placecats.com/300/300">
+
+        <source media="(max-width: 465px)" srcset="https://placecats.com/500/500">
+
+        <source media="(max-width: 768px)" srcset="https://placecats.com/850/850">
+
+        <img src="https://placecats.com/1200/1200" alt="imagem placecats">
+    </picture>
+</body>
+</html>

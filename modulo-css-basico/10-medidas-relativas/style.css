@@ -1,0 +1,66 @@
+/* Medida feita com Porcentagem; */
+/* html {
+  background-color: #ccc;
+}
+
+body {
+  background-color: #f46c4e;
+  width: 50%;
+}
+
+.pai {
+  background-color: #c8f65c;
+  width: 50%;
+}
+
+.filha {
+  background-color: #a12916;
+  width: 50%;
+} */
+
+/* Medida feita em EM; quando utilizar essa medida, a medida do proximo elemento estará sempre olhando para o pai que nesse caso seria o elemento anterior. Exemplo: A medida renderizada no .pai está olhando para a medida do body para renderizar o tamanho indicado*/
+/* html {
+  background-color: #ccc;
+  font-size: 16px;
+}
+
+body {
+  background-color: #f46c4e;
+  width: 3em;
+}
+
+.pai {
+  background-color: #c8f65c;
+  width: 1.5em;
+}
+
+.filha {
+  background-color: #a12916;
+  width: 0.5em;
+} */
+
+
+/* Medida em REM
+REM: Cria a medida dos elementos olhando sempre par a raiz, o HTML */
+html {
+  background-color: #ccc;
+}
+
+body {
+  background-color: #f46c4e;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.pai {
+  background-color: #c8f65c;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.filha {
+  background-color: #a12916;
+  width: 50%;
+  font-size: 0.5rem;
+}
+

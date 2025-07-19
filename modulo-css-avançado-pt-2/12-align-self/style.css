@@ -1,0 +1,30 @@
+/* O PADRÃO DO ALIGN-SELF É AUTO; */
+
+/* ALIFN-SELF vai alinhar um único elemento ao longo do eixo transversal */
+
+
+/* ALIGN-SELF é uma propriedade de FLEX-ITEM, deve ser aplicada diretamente ao elemento filho pra poder mover um único elemento ao mais */
+
+.container{
+    display: flex;
+}
+/* não muda nada, o padrão é auto mesmo alterando o flex-direction; flex-direction deve ser aplicado no pai, por ser uma propriedade flex-container */
+.auto{
+    align-self: auto;
+}
+
+.flex-start{
+    align-self: flex-start;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
+
+.center{
+    align-self: center;
+}
+/* Para o STRETCH FUNCIONAR PRECISAMOS FAZER DUAS MUDANÇAS, UMA NO GLOBAL.CSS(removar altura e largura da div) PORQUE O STRETCH SÓ FUNCIONA SEM LARGURA E ALTURA fixa pro elemento E ADICIONAR A CLASSE .container UM FLEX-START, por exemplo */
+.stretch{
+    align-self: stretch;
+}

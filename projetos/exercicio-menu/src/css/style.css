@@ -1,0 +1,50 @@
+body{
+    background-color: #ccc;
+    font-family: "Public Sans", sans-serif;
+}
+
+.cabecalho{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 30vh;
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.menu ul{
+    letter-spacing: 2px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.cabecalho .menu .sobre, .cadastro{
+    background-color: #5bc241;
+    padding: 10px;
+    color: #fff;
+}
+
+.cabecalho .menu .cadastro{
+    border: none;
+    border-radius: 10px ;
+}

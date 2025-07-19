@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cartao {
+  background-color: var(--cor-cartao);
+  border-radius: 15px;
+  display: flex;
+  height: 330px;
+}
+
+.cartao .informacoes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 540px;
+}
+
+.cartao .informacoes .titulo {
+  color: var(--btn-e-texto);
+  margin-top: 45px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cartao .informacoes .texto {
+  color: var(--cor-texto);
+  margin: 25px;
+  font-size: 28px;
+  width: 450px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartao .informacoes .divisor-imagem {
+  display: flex;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: var(--btn-e-texto);
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+  /* box-shadow: 0 0 15px #53ffaa; */
+  cursor: pointer;
+  position: relative;
+}
+
+.btn:hover {
+  box-shadow:
+    /* 0 0 10px #53ffaa,
+    0 0 20px #53ffaa, */
+    0 0 30px #53ffaa,
+    0 0 40px #53ffaa; /* efeito neon mais forte ao passar o mouse */
+}
+                                                                      

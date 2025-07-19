@@ -1,0 +1,69 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil{
+    width: 96px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.nome-idade{
+    margin-top: 20px;
+}
+
+.cidade{
+    margin: 20px 30px;
+    font-weight: 700;
+    
+}
+
+.informacoes{
+    display: flex;
+    gap: 90px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+
+.informacoes-adicionais{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+span{
+    color: hsl(227, 10%, 46%);;
+}
+
+hr{
+  width: 100%;
+  border-bottom: 2px solid hsl(227, 10%, 46%);
+  margin: 10px;
+}
+
+@media (max-widht:768px) {
+    .container{
+        display: block;
+    }
+}
+
+
+

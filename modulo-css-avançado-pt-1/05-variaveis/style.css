@@ -1,0 +1,29 @@
+/* root é o escopo global */
+:root{
+    --cor-padrao: chartreuse;
+    --tamanho-de-fonte: 30px;
+}
+
+h2{
+    /* quando é dentro do elemento é o escopo local */
+    --cor-padrao: tomato;
+    
+    color: var(--cor-padrao, teal);
+    font-size: var(--tamanho-de-fonte);
+    background-color: var(--cor-padrao);
+}
+
+h3{
+    color: var(--cor-padrao, teal);
+    font-size: var(--tamanho-de-fonte);
+}
+
+p{
+    color: var(--cor-padrao, teal);
+    font-size: var(--tamanho-de-fonte);
+}
+
+span{
+    color: var(--cor-padrao, teal);
+    font-size: var(--tamanho-de-fonte);
+}

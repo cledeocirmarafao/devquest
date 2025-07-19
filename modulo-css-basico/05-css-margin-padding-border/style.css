@@ -1,0 +1,49 @@
+/*
+Forma colocando cada lateral separada
+p{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+} */
+
+/*
+forma colocando o mesmo valor no topo e em baixo, na direita e na esquerda
+p{
+    margin: 30px 15px; 30px 15px
+} */
+
+
+/* Essa é a forma SHORTHAND, encurtando o código e também o jeito preferível de codar */
+p{
+    margin: 30px 15px;
+   /* O Padding é o espaçamento entre o conteúdo que está dentro do elemento  */
+    padding: 20px;
+    background-color: violet;
+    
+
+    
+    /* Pode ser feito assim
+
+    border-style: solid;
+    border-width: 20px;
+    border-color: tomato; */
+} 
+
+h1{
+    /* 
+    Pode ser feito assim
+    border-style: solid;
+    border-width: 20px;
+
+    border-color: blueviolet blue chartreuse crimson; */
+
+
+    /* Melhor opção, código em SHORTHAND para melhorar a leitura/manutenção do código  */
+    border: 20px solid blueviolet
+}
+
+/* Para dar uma cor a cada lado de forma refatorada usar:
+
+border: 20px solid;
+border-color: red green yellow blue */

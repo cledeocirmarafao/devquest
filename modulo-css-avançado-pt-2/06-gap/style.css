@@ -1,0 +1,46 @@
+.gap {
+  display: flex;
+  gap: 50px;
+}
+SEM O GAP EU TERIA QUE FAZER
+
+/* .container {
+    margin-bottom: 50px
+}
+     */
+
+
+
+/* GAP é o espaçamento entre os itens dentro de um container flex ou grid. Ele só pode ser utilizado com display flex ou grid */
+
+/* Se eu colocar apenas um valor no gap estarei determinando esse valor em linha e em coluna */
+
+/* O GAP SÓ ESPAÇA OS ELEMENTOS FILHOS DO CONTAINER FLEX OU GRID, ELE NÃO FAZ O ESPAÇAMENTO AO REDOR, COMO O MARGIN. ELE CRIA O ESPAÇAMENTO DE UM PRO OUTRO E NÃO EM VOLTA DO ITEM OU ESPAÇANDO A BORDA POR EXEMPLO */
+
+/* GAP SHORTHAND
+    COLUMN-GAP
+ROW-GAP
+*/
+
+/* O GAP pode ser utilizado independentemente do eixo definido pelo flex-direction, pode ser row, row-reverse, column, column-reverse, não tem restrição contra isso.
+*/
+
+/* COLUMN-GAP SÓ VAI SER APLICADO QUANDO O FLEX-DIRECTION ESTIVER DEFINIDO COMO COLUMN */
+/* ROW-GAP SÓ VAI SER APLICADO QUANDO O FLEX-DIRECTION ESTIVER DEFINIDO COMO ROW */
+/* EXEMPLO ABAIXO;  */
+
+/* .gap{
+    display: flex;
+    gap: 50px 20px;
+    flex-direction: column;
+    só vai ser aplicado os 5px se o flex-direction for column
+    } */
+
+/* TAMBÉM PODEMOS SAR PORCENTAGEM AO INVÉS DE PIXELS */
+/* exemplo; */
+
+/* .gap{
+        display: flex;
+        gap: 10% 5%;
+        flex-direction: column;
+        } */

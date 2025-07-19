@@ -1,0 +1,24 @@
+/* A PROPRIEDADE FLEX É UMA ABREVIAÇÃO PARA PODERMOS ESCREVER AS TRÊS PROPRIEDADES "GROW, BASIS E SHRINK" JUNTAS */
+
+.container{
+    display: flex;
+}
+
+.flex-0{
+    flex: 0;
+    /* Se eu passar o valor somente 0 como no exemplo acima, o valor estará sendo passado somente para o GROW, independente do valor(0, 1, 2 ou 3) porque se eu não der valor as outras propriedades o valor delas será o padrão */
+}
+
+/* REFATORADO; valores: (Grow-Basis-Shrink) */
+/* .flex-1{
+    flex: 0 1 150px;
+} */
+
+.flex-1{
+    flex: 1;
+}
+
+.flex{
+    flex: 1 1 100px;
+}
+

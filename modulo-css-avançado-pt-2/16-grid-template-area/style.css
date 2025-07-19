@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: cornflowerblue;
+}
+
+.secao-principal{
+    background-color: hotpink;
+}
+
+.aside{
+    background-color: orangered;
+}
+
+.rodape{
+    background-color: green;
+}
+
+.container{
+/* se eu quiser uma coluna vazia entre essas seções eu posso usar o '.' ponto, exemplo:
+grid-template-areas:"
+    cabecalho cabecalho cabecalho" 
+    "menu . aside"
+    "rodape rodape rodape";  */
+    display: grid;
+    grid-template-areas:"cabecalho cabecalho cabecalho" 
+    "menu secao-principal aside"
+    "rodape rodape rodape";
+
+    /* SHORTHAND */
+    grid: 
+    "cabecalho cabecalho cabecalho" 150px 
+    "menu secao-principal aside" 300px
+    "rodape rodape rodape" 120px 
+    / 160px auto 160px
+
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.secao-principal{
+    grid-area: secao-principal;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.rodape{
+    grid-area: rodape;
+}

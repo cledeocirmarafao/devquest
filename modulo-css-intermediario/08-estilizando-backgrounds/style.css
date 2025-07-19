@@ -1,0 +1,43 @@
+p{
+    color: indigo;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.background{
+    background-color: aqua;
+    background-image: url(./images/cat.png);
+}
+
+.background-image{
+    width: 513px;
+    height: 340px;
+}
+
+.background-repeat{
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.background-cover{
+    background-size: cover;
+    height: 540px;
+}
+
+.background-fixed{
+    background-attachment: fixed;
+    height: 540px;
+}
+
+/* background-position pode receber dois valores ao mesmo tempo, exemplo abaixo */
+.background-position{
+    background-position: right bottom;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.background-position-refatorado{
+    height: 540px;
+    background: #000 url(./images/cat.png) no-repeat right bottom;
+}

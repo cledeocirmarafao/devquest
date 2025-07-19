@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+
+    <style>
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      tfoot {
+        background-color: turquoise;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Café</th>
+          <th>Cigarro</th>
+          <th>Cannabis</th>
+          <th>Programação</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+        </tr>
+
+        <tr>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+        </tr>
+
+        <tr>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+        </tr>
+
+        <tr>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Sera que tem?</td>
+          <td>CERTEZA</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+
+<!-- COLSPAN expande os atributos para as Laterais, ROWSPAN expande para Baixo -->
+
+<!-- EXEMPLO 1 -->
+
+<!-- <thead>
+        <tr>
+          <th rowspan="4">Café</th>
+          <th>Cigarro</th>
+          <th>Cannabis</th>
+          <th colspan="4">Programação</th>
+        </tr>
+      </thead> -->
+
+<!-- EXEMPLO 2 -->
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Café</th>
+      <th>Cigarro</th>
+      <th>Cannabis</th>
+      <th>Programação</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="2">Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+
+    <tr>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+
+    <tr>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+
+    <tr>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+  </tbody>
+</table> -->

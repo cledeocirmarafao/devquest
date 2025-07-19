@@ -1,0 +1,26 @@
+/* .container-cascata{
+    background-color: cadetblue;
+}
+
+.container-cascata{
+    background-color: orangered;
+} */
+
+/* ---------- Especificidade ---------  */
+
+#meu-paragrafo {
+  background-color: springgreen;
+}
+.container-especificidade p {
+  background-color: violet;
+}
+
+p {
+  background-color: yellow;
+}
+
+/* NIVEL DE IMPORTÂNCIA DE ESPECIFICIDADE REPRESENTADA ACIMA
+
+ID > CLASS > P */
+
+

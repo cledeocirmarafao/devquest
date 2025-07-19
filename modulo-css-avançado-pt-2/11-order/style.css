@@ -1,0 +1,39 @@
+/* O PADRÃO DO ORDER É 0; */
+/* O ORDER FUNCIONA SEM VALORES FIXOS PRÉ-DEFINIDOS, A GENTE PODE PASSAR QUALQUER  NÚMERO INTEIRO PRA REPRESENTAR A POSIÇÃO ONDE ESSE ELEMENTO VAI FICAR */
+
+/* SE O VALOR FOR MENOR, O ELEMENTO FICARÁ MAIS PARA A ESQUERDA, SE O VALOR FOR MAIOR, FICARÁ MAIS A DIREITA */
+
+/* ORDER TAMBÉM É UMA PROPRIEDADE DE FKEX-ITEM ENTÃO DEVE SER APLICADO DIRETAMENTE AO ITEM */
+
+/* Se aplicarmos no .container um "flex-direction row-reverse" o elemento que tiver o maior tamanho vai ficar pra esquerda e o que tiver menor valor a direita; */
+
+/* As alterações de ORDER acontecem apenas no navegador, no html não. Não acontecem alterações de semântica, somente visuais. */
+
+/* Se dois elementos tiverem o mesmo valor de order, o elemento que ficará mais para a direita será o elemento que vem depois na sequência HTML */
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.flex{
+    flex: 1;
+}
+
+.order-0{
+    order: 0;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+.order-4{
+    order: 4;
+}

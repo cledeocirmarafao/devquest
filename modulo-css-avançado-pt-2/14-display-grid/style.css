@@ -1,0 +1,23 @@
+.container div{
+    border: 1px solid #000000;
+    background-color: #8a2be2;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+footer::after
+
+.container{
+    display: grid;
+    /* grid-template-columns: auto auto;
+    grid-template-rows: 150px 50px; */
+
+    /* VERSÃO SHOTHAND DO CÓDIGO ACIMA */
+    grid-template: repeat(1, 150px) / repeat(2, auto);
+
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+
+    /* VERSÃO SHOTHAND DO CÓDIGO ACIMA */
+    grid-gap: 10px 20px;
+}

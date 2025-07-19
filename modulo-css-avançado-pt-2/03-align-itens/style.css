@@ -1,0 +1,44 @@
+/* ALIGN-ITEMS SE MOVE AO LONGO DO EIXO TRANSVERSAL ENTÃO ELE ALINHA OS ITENS DE ACORDO COM ESSE EIXO. DO INICIO NA VERTICAL PORQUE O FLEX-DIRECTION ESTÁ COMO ROW(PADRAO) */
+/* imagens css tem coisas importantes */
+
+/* --- O PADRÃO DO ALIGN-ITEMS É STRETCH --- */
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* se estiver determinado uma largura e altura em pixels, o stretch não funciona */
+.stretch {
+  display: flex;
+  /* o align-items: stretch; está comentado por ser o padrão do align-itens*/
+  /* align-items: stretch; */
+  flex-direction: column;
+}
+/* flex-direction: column não se aplica ao baseline porque o baseline se aplica ao alinhamento de texto somente na horizontal */
+.baseline {
+  display: flex;
+  align-items: baseline;
+  /* flex-direction: column; */
+}
+
+.container div.baseline-2{
+    font-size: 40px;
+}
+
+.container div.baseline-3{
+    font-size: 100px;
+}

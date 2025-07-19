@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    margin: 0 20px;
+
+}
+
+.rome {
+  background-image: url(../images/rome.png);
+  width: 335px;
+  height: 430px;
+  position: relative;
+
+}
+
+.boat {
+  background-image: url(../images/boat.png);
+  width: 335px;
+  height: 430px;
+  position: relative;
+  border: 1px solid #000000;
+}
+
+.sand-sea {
+  background-image: url(../images/sand-and-sea.png);
+  width: 335px;
+  height: 430px;
+  position: relative;
+}
+
+.starry-night {
+  background-image: url(../images/starry-night.png);
+  width: 335px;
+  height: 430px;
+  position: relative;
+}
+
+.obra-autor {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  color: #ffffff;
+  padding: 8px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.autor{
+    font-size: 17px;
+    font-weight: 300;
+}

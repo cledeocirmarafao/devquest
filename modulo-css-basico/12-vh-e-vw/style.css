@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* EXEMPLO: Usando VH e VW (VH: Altura, VW: Largura) */
+.primeira-section{
+    background-color: red;
+    
+    width: 100vw;
+    min-height: 100vh;
+    
+    border-bottom: solid 10px green;
+}
+/* EXEMPLO: Usando % */
+/* .primeira-section{
+    background-color: red;
+    
+    width: 100%;
+    min-height: 100%;
+    
+    border-bottom: solid 10px green;
+
+
+} */
+
+.primeira-section > div{
+    background-color: black;
+
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.segunda-section{
+    background-color: indigo;
+    
+    width: 100%%;
+    height: 100vh;
+    
+    border-bottom: solid 10px green;
+}

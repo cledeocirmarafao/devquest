@@ -1,0 +1,43 @@
+/* A PROPRIEDADE PADRÃO DO JUSTIFY-CONTENT É FLEX-START, por isso todos exemplos tem   flex-direction: column; */
+
+.flex-start {
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* é o espaçamento entre os elementos, mas sem margin */
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container.space-between div,
+.container.space-around div,
+.container.space-evenly div {
+  margin: 0;
+}
+/* é o espaçamento entre os elementos, incluindo as bordas(margin) */
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+/* é o espaçamento uniforme, igual entre a parte interna dos elementos e a borda(margin) */
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}

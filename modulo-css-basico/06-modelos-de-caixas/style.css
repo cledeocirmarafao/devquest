@@ -1,0 +1,19 @@
+/* Como resetar as margens inicias do site
+~ Para um código limpo criar o reset.css para fazer essas aplicações.
+*{
+    margin: 0;
+} */
+
+h1{
+    margin: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: solid 10px purple;
+}
+
+p{
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    border: solid 10px green;
+}

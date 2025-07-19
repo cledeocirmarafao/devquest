@@ -1,0 +1,32 @@
+/* seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: teal;
+}
+
+p:last-child{
+    color: indigo;
+}
+/* estilizaria todo 'p' que não estivesse na classe padrao(classe criada no html) */
+p:not(.padrao){
+    color: indianred;
+}
+/* ODD; Estiliza todos os impares
+Even; Estiliza os pares
+N; estiliza por exemplo (3n) vai estilizar de 3 em 3
+N+2; Vai estilizar da segunda linha em diante
+nth-child(n+2):nth-child(-n+5); vai estilizar da segunda até a quinta linha */
+
+li:nth-child(odd){
+    color: saddlebrown;
+}
+
+li:nth-last-child(1){
+    color: orangered;
+}
+/* only-child; Estiliza somente divs que tenham apenas um filho */
+p:only-child{
+    color: chartreuse;
+}
