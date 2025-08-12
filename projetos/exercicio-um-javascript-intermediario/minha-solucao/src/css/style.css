@@ -1,0 +1,25 @@
+body{
+    background-color: #1d1b1b;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+button{
+    margin: 2px;
+    background-color: #1d1b1b;
+    border: 1px solid chartreuse;
+    color: #999999;
+    box-shadow: 1px 1px 1px chartreuse;
+    cursor: pointer;
+}

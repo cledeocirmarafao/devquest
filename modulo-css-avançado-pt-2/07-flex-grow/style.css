@@ -3,7 +3,7 @@
 }
 /* grow-0 não acontece nada */
 
-/* Se tiver um conteúdo maior dentro de um elemento html com grow aplicado por mais que o valor do flex-grow aplicado seja menir do que os outros elementos irmãos, ele vai aumentar de tamanho, porque o conteúdo é maior, exemplo; COLOQUE UM 'P' COM UM LOREM NO GROW-2 NO HTML */
+/* Se tiver um conteúdo maior dentro de um elemento html com grow aplicado por mais que o valor do flex-grow aplicado seja menor do que os outros elementos irmãos, ele vai aumentar de tamanho, porque o conteúdo é maior, exemplo; COLOQUE UM 'P' COM UM LOREM NO GROW-2 NO HTML */
 .grow-0 {
 }
 
