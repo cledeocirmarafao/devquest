@@ -1,0 +1,7 @@
+.selecionado{
+    border: 1px solid green;
+}
+
+input{
+    outline: none;
+}

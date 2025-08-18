@@ -1,0 +1,20 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+}
+button{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    background-color: black;
+}
+
+.classe-azul{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    background-color: blue;
+}
