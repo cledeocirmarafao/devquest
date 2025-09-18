@@ -43,6 +43,6 @@ const numeros = [ 1, 2 , 3]
 
 const [ um, dois, tres] = numeros
 // Se tentarmos adicionar uma quarta propriedade na desestruturação essa propriedade rebecerá 'undefined' pois não existe dentro do array.
-console.log(um);
+console.log(um)
 console.log(dois)
 console.log(tres)

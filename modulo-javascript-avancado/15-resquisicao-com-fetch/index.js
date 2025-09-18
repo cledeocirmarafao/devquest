@@ -5,7 +5,7 @@ async function criarBaralhoEmbaralhado() {
     const url = 'https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1'
     const resposta = await fetch(url)
     //const json = await resposta.json()
-    // ao invés de criar um objeto.json (linha 7), eu posso já direto retornar esse resposta.json que vai retornar aquele objeto que vimos(linha 9)
+    // ao invés de criar um objeto.json (linha 7), eu posso já direto retornar esse resposta.json que vai retornar aquele objeto que está na (linha 9)
     return await resposta.json()
 }
 //criarBaralhoEmbaralhado()
