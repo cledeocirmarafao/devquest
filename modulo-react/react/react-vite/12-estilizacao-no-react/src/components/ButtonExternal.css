@@ -1,0 +1,12 @@
+.my-button {
+  background-color: lightcoral;
+  color: gray;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: lightsalmon;
+}

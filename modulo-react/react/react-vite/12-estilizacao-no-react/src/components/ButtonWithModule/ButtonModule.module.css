@@ -1,0 +1,12 @@
+.myButton {
+  background-color: green;
+  color: gray;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.myButton:hover {
+  background-color: lightgreen;
+}

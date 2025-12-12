@@ -1,0 +1,7 @@
+.card{
+    width: 17rem;
+    height: 17rem;
+    background-color: purple;
+    border: 0.1rem solid lightpink;
+    color: gray;
+}
