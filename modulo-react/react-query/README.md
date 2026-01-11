@@ -1,0 +1,1 @@
+## A aula está defasada, usar a base do erro da main.jsx para atualizar e solucionar
